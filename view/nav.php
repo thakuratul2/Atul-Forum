@@ -1,4 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<?php
+ echo '<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="">Atul Forum</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +11,7 @@
           <a class="nav-link active" aria-current="page" href="">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">About</a>
+          <a class="nav-link" href="view/about.php">About</a>
         </li>
         <li class="nav-item"><a class="nav-link" href="">Categories</a></li>
         <li class="nav-item dropdown">
@@ -18,8 +19,8 @@
             More Features
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="System/login_system.php">Login</a></li>
-            <li><a class="dropdown-item" href="System/signup_system.php">SignUp</a></li>
+            <li><a class="dropdown-item" href="./System/login_system.php" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li>
+            <li><a class="dropdown-item" href="./System/signup_system.php"  data-bs-toggle="modal" data-bs-target="#signupModal">SignUp</a></li>
             
           </ul>
         </li>
@@ -33,4 +34,7 @@
       </form>
     </div>
   </div>
-</nav>
+</nav>';
+include './System/login_modal.php';
+include './System/signup_modal.php';
+?>

@@ -18,10 +18,10 @@
       <img src="https://source.unsplash.com/2400x700/?code,python" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://source.unsplash.com/2400x700/?code,python" class="d-block w-100" alt="...">
+      <img src="https://source.unsplash.com/2400x700/?code,javascript" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://source.unsplash.com/2400x700/?code,python" class="d-block w-100" alt="...">
+      <img src="https://source.unsplash.com/2400x700/?code,java" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
